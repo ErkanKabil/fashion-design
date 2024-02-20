@@ -1,0 +1,65 @@
+export const mockProducts = [
+  {
+    id: "9452251",
+    brand: "REVIEW",
+    description: "Jumpsuit mit Ethnomuster",
+    priceO: 39.95,
+    priceR: 9.95,
+    url: "https://www.fashionid.de/review/damen-jumpsuit-mit-ethnomuster-schwarz-9452251_7/",
+    images: [
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/79831db6-6b07-410c-9c01-01a1eb3a65ac.jpg",
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/88cef2ba-a992-437f-b0f4-9f0eb4272057.png",
+    ],
+    sizes: ["XS", "S", "M", "L"],
+  },
+  {
+    id: "9427344",
+    brand: "Lacoste",
+    description: "Poloshirt mit Logo-Badge",
+    priceO: 69.95,
+    url: "https://www.fashionid.de/lacoste/herren-poloshirt-mit-logo-badge-gruen-9427344_10/",
+    images: [
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/2f852b18-958b-4719-9694-5d1d284c98ab.png",
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/7d09295f-4ffd-4ce0-b206-dda664d7ad14.jpg",
+    ],
+    sizes: ["2", "3", "4", "5", "6", "7", "8", "00"],
+  },
+  {
+    id: "9531580",
+    brand: "Jake*s Casual",
+    description: "Jeans-Overall mit Brusttaschen",
+    priceO: 89.95,
+    priceR: 59.95,
+    url: "https://www.fashionid.de/jakes-casual/damen-jeans-overall-mit-brusttaschen-jeans-9531580_10/",
+    images: [
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/c10b2a81-8ab3-4bcf-a36a-7aed98e163fb.jpg",
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/f516bfb4-8765-4480-9650-66787d787de1.png",
+    ],
+    sizes: ["00", "34", "36", "38", "40", "42", "44"],
+  },
+  {
+    id: "9182301",
+    brand: "Dr. Denim",
+    description: "Second Skin Jeans mit Stretch-Anteil",
+    priceO: 49.95,
+    priceR: 19.95,
+    url: "https://www.fashionid.de/dr-denim/damen-second-skin-jeans-mit-stretch-anteil-schwarz-9182301_10/",
+    images: [
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/bca2784e-efc5-4a2c-b4f5-0b0bda7aa047.png",
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/d5684e17-4673-4499-9382-1a6eb7326d0f.png",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL", "00"],
+  },
+  {
+    id: "9452065",
+    brand: "Niente",
+    description: "Cocktailkleid mit Zierborten und Stickereien",
+    priceO: 179.95,
+    url: "https://www.fashionid.de/niente/damen-cocktailkleid-mit-zierborten-und-stickereien-altrosa-9452065_10/",
+    images: [
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/d365fef4-30ba-4a43-bdf2-9a53bdc53cbe.jpg",
+      "https://s3-eu-west-1.amazonaws.com/fid-media-prod/c33cf12d-10a6-456c-93ff-3a1582b40cc2.png",
+    ],
+    sizes: ["32", "34", "36", "38", "40", "42", "44", "46", "48"],
+  },
+];

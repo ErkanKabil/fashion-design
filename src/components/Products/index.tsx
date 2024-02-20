@@ -11,8 +11,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { sortTypes } from "@/core/constants/sortTypes";
-import { filterBySize } from "@/core/utils/filter";
-import { sortByParam } from "@/core/utils/sort";
+import { filterBySize } from "@/core/utils/filter/filter";
+import { sortByParam } from "@/core/utils/sort/sort";
 
 interface Props {
   products: IProduct[];
