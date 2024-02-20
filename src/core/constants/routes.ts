@@ -1,4 +1,4 @@
 export const ROUTES = {
-    HOME: "/",
-    STATISTICS: "/statistics"
-}
+  HOME: "/",
+  STATISTICS: "/statistics",
+};
