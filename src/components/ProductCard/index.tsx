@@ -24,7 +24,6 @@ const ProductCard: FC<Props> = ({ product }) => {
         <span className={"font-bold"}>{brand}</span>
         <span className={"text-sm"}>{description}</span>
         <span className={"mt-3"}>{priceO} €</span>
-        <span className={"mt-3"}>{priceR} €</span>
       </div>
     </Link>
   );
